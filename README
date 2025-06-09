@@ -1,0 +1,34 @@
+Convierte el diseño de esta imagen en una página web con fidelidad máxima al diseño visual. Sigue estas indicaciones estrictamente:
+
+1. **HTML5 semántico**:
+   - Usa solo el HTML necesario, sin código redundante.
+   - Utiliza etiquetas semánticas como `<header>`, `<section>`, `<article>`, `<nav>`, `<footer>`, etc., según corresponda al diseño.
+   - Detecta correctamente los elementos estructurales y aplica un marcado limpio y correcto.
+
+2. **CSS organizado y moderno**:
+   - Crea un archivo externo llamado `style.css`.
+   - Escribe el CSS como si fuese SCSS anidado (aunque en CSS plano), estructurado por niveles: primero `body`, luego los `div`, `section`, etc. Anida lógicamente los selectores para reflejar la jerarquía del HTML, usando indentación clara.
+   - Usa **variables CSS** para colores, fuentes, tamaños y espaciados.
+   - Emplea **Flexbox** y **CSS Grid** para la maquetación del layout.
+   - Aplica **carga de fuentes desde Google Fonts** si se usan tipografías externas.
+
+3. **Diseño Responsive (Desktop First)**:
+   - Utiliza media queries modernas (`@media (max-width: ...)`) para adaptar la maquetación a móviles.
+   - Asegura que las fuentes, los márgenes y paddings se escalen bien en pantallas pequeñas.
+
+4. **Animaciones y efectos**:
+   - Añade transiciones suaves con `:hover` y `:focus` cuando tenga sentido.
+   - Si el diseño lo requiere, usa `@keyframes` para animaciones visuales.
+
+5. **Buenas prácticas**:
+   - No abuses de clases ni IDs innecesarios en el HTML.
+   - Usa nombres de clase descriptivos pero sencillos.
+   - Estructura el código limpio, indentado, comentado y sin errores de Stylelint.
+   - Minimiza el CSS al final en un archivo `style.min.css`.
+
+6. **Salida esperada**:
+   - `index.html` limpio y semántico.
+   - `style.css` bien estructurado como SCSS plano.
+   - `style.min.css` generado a partir del anterior.
+   - Organización de carpetas profesional.
+
